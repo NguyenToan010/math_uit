@@ -35,15 +35,15 @@ public class Main {
             return 1;
         
         } 
-//        else {
-//            return n * getFactorial((n - 1));
-//        }
-        long result = 1;// cố tình hen , lát tính tiếp 
-        for (int i = 2; i < n; i++) {
-            result *= i;
+        else {
+            return n * getFactorial((n - 1));
         }
-        return result ;
-        
-//
+//        long result = 1;// cố tình hen , lát tính tiếp 
+//        for (int i = 2; i < n; i++) {
+//            result *= i;
+//        }
+//        return result ;
+//        
+////
     }
 }
